@@ -21,7 +21,7 @@ int FindPrime(int n)
 	for (int i = 1; i < n; i++)
 	{
 		int j = mem[i - 1] + 1;
-		while (!IsPrime(j))	//เรียหใช้งาน function ที่ใช้ check Prime numbers
+		while (!IsPrime(j))
 		{
 			j++;
 		}
